@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-import string; import builtins; builtins.print(string.ascii_uppercase)
+import string
+print(string.ascii_uppercase)
