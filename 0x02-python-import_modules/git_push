@@ -1,0 +1,10 @@
+#!/bin/bash
+
+file=$1
+commit_msg="${*:2}"
+
+git add "$file"
+
+git commit -m "$commit_msg"
+
+git push
